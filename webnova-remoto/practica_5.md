@@ -6,7 +6,7 @@
 
 En la Fase 3, al intentar subir nuestros cambios locales sin habernos sincronizado previamente con el repositorio remoto, Git rechaza la operación para evitar sobrescribir el trabajo del compañero.
 
-![Captura 1: Error de rechazo en el push](1)
+![Captura 1: Error de rechazo en el push](1.png)
 
 ---
 
@@ -14,7 +14,7 @@ En la Fase 3, al intentar subir nuestros cambios locales sin habernos sincroniza
 
 Durante el proceso de `git pull --rebase`, Git detecta que la misma línea ha sido modificada tanto en el servidor como localmente, deteniendo el proceso y mostrando las marcas de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`).
 
-![Captura 2: Marcas de conflicto en el archivo equipo.md](2)
+![Captura 2: Marcas de conflicto en el archivo equipo.md](2.png)
 
 ---
 
@@ -22,7 +22,7 @@ Durante el proceso de `git pull --rebase`, Git detecta que la misma línea ha si
 
 Una vez aplicado `git add`, `git rebase --continue` y el `git push` definitivo, el archivo en la interfaz web de GitHub muestra la integración completa y correcta de ambos miembros.
 
-![Captura 3: Repositorio en GitHub finalizado](3)
+![Captura 3: Repositorio en GitHub finalizado](3.png)
 
 ---
 
